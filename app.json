@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "ZedHealth",
+    "slug": "zedhealth",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-sqlite",
+      "expo-notifications"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "Needed to connect blood pressure & glucose meters"
+      }
+    },
+    "android": {
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT",
+        "ACCESS_NOTIFICATION_POLICY"
+      ],
+      "package": "org.zedhealth.app"
+    }
+  }
+}
