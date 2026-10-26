@@ -1,0 +1,33 @@
+{
+  "name": "zedhealth",
+  "version": "1.2.0",
+  "description": "Nsansa Health + YouthConnect SRH — Zambia's integrated health app",
+  "main": "App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "server": "cd server && npm run dev"
+  },
+  "dependencies": {
+    "expo": "~52.0.0",
+    "expo-sqlite": "~15.0.0",
+    "expo-network": "~7.0.0",
+    "expo-localization": "~14.0.0",
+    "expo-secure-store": "~14.0.0",
+    "expo-crypto": "~14.0.0",
+    "expo-notifications": "~0.29.0",
+    "expo-print": "~14.0.0",
+    "expo-sharing": "~13.0.0",
+    "react-native-svg": "~15.8.0",
+    "react-native-ble-plx": "~3.2.0",
+    "react-native-maps": "~1.18.0",
+    "i18n-js": "^4.4.3",
+    "react-native-uuid": "^2.0.2",
+    "react": "18.3.1",
+    "react-native": "0.76.5"
+  },
+  "devDependencies": {
+    "@types/react": "~18.3.12",
+    "typescript": "~5.6.3"
+  }
+}
